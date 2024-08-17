@@ -17,7 +17,19 @@ def metodos_variables():
 
 
 def tipo_variables():
-    print("Tipo de variable")
+    name = str(input("Ingrese el nombre: "))
+    edad = int(input("Ingrese la edad: "))
+    direccion = str(input("Ingrese la direccion: "))
+    estatura = int(input("Ingrese la estatura: "))
+    peso = int(input("Ingrese el peso: "))
+
+    print(f"El nombre ingresado es {name} y es de tipo {type(name)}\n"
+          f"la edad es {edad} y es de tipo {type(edad)}\n"
+          f"la dirección es {direccion} y es de tipo {type(direccion)}\n"
+          f"la estatura es {estatura} y es de tipo {type(estatura)}\n"
+          f"el peso es {peso} y es de tipo {type(peso)}\n"
+          )
+
 
 
 def main_practica():
