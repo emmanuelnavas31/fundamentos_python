@@ -1,7 +1,14 @@
 from app.practica.Practica import main_practica
 from app.teoria.Teoria import main_teoria
 
+
 if __name__ == '__main__':
+    def f(x):
+        return x * 2
+
+
+    print("valor = ", f(3))
+
     opciones = """
     '1': "Teoria"
     '2': "Practica"
