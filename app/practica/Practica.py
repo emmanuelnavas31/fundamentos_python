@@ -1,3 +1,20 @@
+def listas():
+    """
+
+    """
+    todo = [
+        "pruebas1",
+        "pruebas2",
+        "pruebas3",
+        "pruebas4",
+        "pruebas5",
+    ]
+    print(todo)
+    numbers = [1, 2, 3, 4, 5, "seis"]
+    print(type(numbers))
+    mix = ["uno", 2, 3.14, True, [1,2,3]]
+    print(mix)
+
 def operaciones_matematicas():
     a = 10
     b = 2
@@ -110,6 +127,7 @@ def main_practica():
             2: Metodos de variable
             3: Enteros, Flotantes y Booleanos
             4: Operaciones matematicas
+            5: Listas
             """
     tipo_teoria = input(f"Que tipo de teoria quiere ver? \n {teoria}\n >> ")
     if tipo_teoria == "1":
@@ -120,3 +138,5 @@ def main_practica():
         enteros_flot_bool()
     if tipo_teoria == "4":
         operaciones_matematicas()
+    if tipo_teoria == "5":
+        listas()
